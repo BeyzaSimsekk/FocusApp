@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_purple">
+
+    <Button
+        android:id="@+id/toDoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="138dp"
+
+        android:backgroundTint="@color/purple"
+        android:fontFamily="@font/poppinsbold"
+        android:text="To Do"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/flowericon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/countDownBtn"
+        android:layout_below="@+id/toDoBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:layout_marginBottom="78dp"
+        android:src="@drawable/icon" />
+
+    <Button
+        android:id="@+id/countDownBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="119dp"
+        android:backgroundTint="@color/purple"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Countdown"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
